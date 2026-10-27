@@ -1,0 +1,5 @@
+method,relL2_pct,train,note
+This work (variational PINO),0.605,amortised,infer 1.41 ms
+Strong-form PINO (residual),57.974,47s,kappa^2 conditioning
+Data-driven FNO (supervised),2.052,45s,needs FEM labels
+MLP-PINN (per-geometry),22.372,13s/geom,no operator

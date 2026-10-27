@@ -1,0 +1,7 @@
+parameter,true,recovered,uncertainty,abs_error,identifiable
+cx,0.46,0.497,0.002,0.037,yes
+cy,0.5,0.509,0.002,0.009,yes
+r,0.175,0.168,0.002,0.007,yes
+a,6.5,5.041,0.009,1.459,NO
+phi,0.6,0.787,0.0,0.187,partial
+h,4.0,4.244,0.044,0.244,yes

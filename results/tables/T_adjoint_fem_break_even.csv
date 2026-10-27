@@ -1,0 +1,5 @@
+reconstruction_trials,fno_training_s,fno_inference_per_forward_ms,fem_forward_solve_ms,adjoint_iters,fno_total_s,adjoint_fem_total_s,fno_speedup_total
+1,,1.4561,61.2054,100,,12.2411,
+10,,1.4561,61.2054,100,,122.4108,
+100,,1.4561,61.2054,100,,1224.1077,
+1000,,1.4561,61.2054,100,,12241.0774,

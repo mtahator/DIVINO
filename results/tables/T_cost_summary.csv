@@ -1,0 +1,15 @@
+quantity,value
+hardware_gpu,NVIDIA RTX 3090
+hardware_cpu,single-threaded scikit-fem (host CPU)
+forward_eval_divino_gpu_ms,2.095208168029785
+forward_eval_divino_cpu_ms,64.45707082748413
+forward_eval_fem_ms,87.0638370513916
+gradient_eval_divino_ms,143.89636516571045
+gradient_eval_fem_ms,1044.7660446166992
+forward_eval_divino_ms,2.095208168029785
+fno_ms,1.41
+fem_ms,64.85
+full_reconstruction_divino_s_mean,7.232780385017395
+full_reconstruction_divino_forward_solves_mean,1000.0
+full_reconstruction_fem_s_mean,27.088796508312225
+full_reconstruction_fem_forward_solves_mean,289.6

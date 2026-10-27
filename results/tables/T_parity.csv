@@ -1,0 +1,3 @@
+method,relL2_pct,sd,t_paired,p_paired,p_wilcoxon_signed,p_mannwhitney,cohens_d
+Variational FNO (ours),0.943,0.149,-6.8712,0.0205,0.25,0.4,0.858
+VINO (FEM-Q1 energy),1.085,0.121,,,,,

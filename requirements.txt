@@ -1,0 +1,11 @@
+# DIVINO — Python dependencies (Python 3.10+; a CUDA GPU is recommended for training)
+torch>=2.0          # neural operator and automatic differentiation through the level-set geometry
+numpy>=1.24
+scipy>=1.10         # sparse linear algebra, Delaunay meshing
+matplotlib>=3.6     # figures
+pandas>=2.0         # tables
+scikit-fem>=8.0     # body-fitted P1 finite-element reference
+# notebooks
+jupyter
+nbconvert
+nbformat

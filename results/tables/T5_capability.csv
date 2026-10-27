@@ -1,0 +1,6 @@
+capability,PINO,VINO,This_work
+Data-free training,no (data/residual),yes (energy),yes (energy)
+Forward relL2 (this problem),~2% (data),~0.6% (parity),~0.6%
+Geometry-differentiable,no,no (fixed mesh),yes (level set)
+Geometric inverse,no,no,yes
+Identifiability analysis,no,no,yes (FIM/CRB)

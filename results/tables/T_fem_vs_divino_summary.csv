@@ -1,0 +1,4 @@
+method,param_err_l2_mean,param_err_l2_std,data_misfit_mean,forward_solves_mean,wall_time_s_mean
+DIVINO (surrogate),0.61329,0.15064,0.00011,1000.0,7.23278
+FEM (Gauss-Newton),0.58208,0.15783,0.00139,289.6,27.0888
+"FEM (Gauss-Newton, cold-start)",0.58206,0.15782,0.00139,277.25,26.33685

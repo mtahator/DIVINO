@@ -1,0 +1,5 @@
+# Store large trained-model weights with Git LFS
+*.pt filter=lfs diff=lfs merge=lfs -text
+
+# Treat notebooks as text for diffs
+*.ipynb text

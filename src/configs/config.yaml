@@ -1,0 +1,31 @@
+# DIVINO — reproducible configuration (reduced-scale defaults; see comments for full-scale)
+seed: 0
+operator:
+  N: 128            # grid resolution (full-scale: 160)
+  modes: 24
+  width: 48
+  layers: 4
+  batch: 16
+  steps: 9000       # full-scale: 20000
+  lr: 2.0e-3
+  two_cav_prob: 0.5
+physics:             # extensions enabled (WP-A: A3 source, A4 Robin, A5 moving/multiple cavities)
+  ranges:
+    r: [0.10, 0.22]
+    a: [2.0, 8.0]
+    cx: [0.30, 0.70]
+    cy: [0.30, 0.70]
+    phi: [0.0, 1.5708]
+    Q0: [0.0, 3.0]   # volumetric source
+    h:  [0.0, 8.0]   # Robin coefficient (0 = insulated)
+  Tinf: 0.0
+fem_reference:
+  hf: 0.011          # mesh size (self-converged ~0.17% at 0.009)
+benchmark:
+  n_indist: 150      # full-scale: 800
+  n_ood: 60
+  ood_widen: 0.15
+inverse:
+  reps: 20           # full-scale: 50
+  noise_K: [0.0, 0.1, 0.5, 1.0, 2.0]
+  sensors: [top, sparse, grid]
